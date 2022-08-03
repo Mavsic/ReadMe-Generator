@@ -1,13 +1,42 @@
 // TODO: Include packages needed for this application
-const inquirer = require("inquirer");
+const inquirer = require('inquirer');
+//To envoke created readme file
+const fs = require('fs');
 
+const generateReadMe = ({ title, description, installation, usage, license, contributing, tests, userName, userEmail }) =>
+`.md
+# Project Title: ${title}
+---
+## Description: ${description}
+---
+## Table of Content:
+1. Installation
+2. Usage 
+3. License ${license}
+4. How to Contribute
+5. Tests
+---
+## Installation: ${installation}
+---
+## Usage: ${usage}
+---
+## License: ${license}
+---
+## How to contribute: ${contributing}
+---
+## Tests : ${tests}
+---
+Contact Informatio: 
+* GitHub Username: ${userName}
+* Email for questions and suggestions: ${userEmail}
+`;
 
 // TODO: Create an array of questions for user input
 const questions = [
     {
         type: "input",
         name: "title",
-        message: "What is the title of your project?",
+        message: "What's the title of your project?",
     },
     // Question for the project Description
     {
@@ -22,14 +51,14 @@ const questions = [
     {
         type: "input",
         name: "installation",
-        message: "Please enter an explanation how to install the software, or commands for the program.",
+        message: "Please enter instruction on how to install the software for the program.",
     },
 
     // Question for Usage
     {
         type: "input",
         name: "usage",
-        message: "Please describe how we can use this program/project.",
+        message: "Please describe how we can use this project.",
     },
 
     // Question for License 
@@ -46,7 +75,6 @@ const questions = [
             "MIT",
             "Mozilla",
         ],
-        validate: validateInput,
     },
 
     // Question for Contributing 
