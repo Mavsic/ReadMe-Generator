@@ -31,11 +31,11 @@ THEN I am taken to the corresponding section of the README
 ---
 
 ## Mock up 
-![An image of generated ReadMe](../picofReadMe.png)
+![An image of generated ReadMe](./picofReadMe.png)
 
 ## Video walkthrough
 
-![walkthrough video](../videoWalkthrough.webm)
+![walkthrough video](./videoWalkthrough.webm)
 
 
 ### GitHub repo: 
