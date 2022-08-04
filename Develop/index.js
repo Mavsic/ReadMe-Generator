@@ -2,37 +2,51 @@
 const inquirer = require('inquirer');
 //To envoke created readme file
 const fs = require('fs');
+//markdown file 
+const generateMarkdown = require("./utils/generateMarkdown");
 
-const generateReadMe = ({ title, description, installation, usage, license, contributing, tests, userName, userEmail }) =>
-`.md
-# Project Title: ${title}
+const generateReadMe = ({ title, description, installation, usage, license, contributing, tests, userName, userEmail }) => {
+return `
+.md
+# Project Title: 
+${title}
 ---
-## Description: ${description}
+## Description: 
+${description}
 ---
 ## Table of Content:
 1. Installation
 2. Usage 
-3. License ${license}
+3. License 
 4. How to Contribute
 5. Tests
 ---
-## Installation: ${installation}
+## Installation: 
+${installation}
 ---
-## Usage: ${usage}
+## Usage: 
+${usage}
 ---
-## License: ${license}
+## License: 
+${license}
 ---
-## How to contribute: ${contributing}
+## How to contribute: 
+${contributing}
 ---
-## Tests : ${tests}
+## Tests : 
+${tests}
 ---
-Contact Informatio: 
-* GitHub Username: ${userName}
-* Email for questions and suggestions: ${userEmail}
+##Contact Information: 
+* GitHub Username: 
+${userName}
+* Email for questions and suggestions: 
+${userEmail}
 `;
+}
 
 // TODO: Create an array of questions for user input
-const questions = [
+// const questions = [
+    inquirer.prompt([
     {
         type: "input",
         name: "title",
@@ -104,10 +118,23 @@ const questions = [
         name: "userEmail",
         message: "What is your GitHub email address that contributors may contact?",
     },
-];
+])
+    .then((response) => {
+        const questions = generateReadMe(response);
+     // TODO: Create a function to write README file
+     fs.writeFile("readMe.md", questions, (err) =>
+   err ? console.log(err) : console.log("ReadMe has been created!")
+     );
+});
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+
+// ];
+
+
+
+
+
+
 
 // TODO: Create a function to initialize app
 function init() {}
