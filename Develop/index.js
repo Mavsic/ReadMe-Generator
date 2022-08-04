@@ -12,12 +12,13 @@ let lic = license.split(" ").join("");
 
 ![badge](https://img.shields.io/badge/license-${lic}-brightgreen.svg)<br />
 
-# Project Title: 
-${title}
+# Project Title: ${title}
 ---
 ## Description: 
 ${description}
 ---
+
+
 ## Table of Content:
 1. [Installation](#installation)
 2. [Usage](#usage)
@@ -25,6 +26,8 @@ ${description}
 4. [How to Contribute](#how-to-contribute)
 5. [Tests](#tests)
 ---
+
+
 ## Installation:  ${installation}
 ---
 ## Usage:  ${usage}
@@ -38,6 +41,8 @@ Application is covered by ${license} license.
 ---
 ## Tests :  ${tests}
 ---
+
+
 ##Contact Information: 
 For any questions and suggestions, please, contact using info below.
 * GitHub Username:  ${userName}
