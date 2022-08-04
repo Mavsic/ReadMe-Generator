@@ -25,29 +25,23 @@ ${description}
 4. [How to Contribute](#how-to-contribute)
 5. [Tests](#tests)
 ---
-## Installation: 
-${installation}
+## Installation:  ${installation}
 ---
-## Usage: 
-${usage}
+## Usage:  ${usage}
 ---
 ## License: 
 ![badge](https://img.shields.io/badge/license-${lic}-brightgreen.svg)
 <br />
 Application is covered by ${license} license. 
 ---
-## How to contribute: 
-${contributing}
+## How to contribute:  ${contributing}
 ---
-## Tests : 
-${tests}
+## Tests :  ${tests}
 ---
 ##Contact Information: 
 For any questions and suggestions, please, contact using info below.
-* GitHub Username: 
-${userName}
-* Email for questions and suggestions: 
-${userEmail}
+* GitHub Username:  ${userName}
+* Email for questions and suggestions: ${userEmail}
 `;
 }
 
