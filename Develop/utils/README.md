@@ -30,7 +30,13 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ---
 
-# Moch up 
+## Mock up 
+![An image of generated ReadMe]()
+
+## Video walkthrough
+
+
+
 
 ### GitHub repo: 
 [Here is the link](https://github.com/Mavsic/ReadMe-Generator)
