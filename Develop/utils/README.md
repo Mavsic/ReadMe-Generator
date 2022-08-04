@@ -35,7 +35,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Video walkthrough
 
-![walkthrough video](../video.webm)
+![walkthrough video](../videoWalkthrough.webm)
 
 
 ### GitHub repo: 
