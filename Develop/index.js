@@ -43,6 +43,7 @@ ${contributing}
 ${tests}
 ---
 ##Contact Information: 
+For any questions and suggestions, please, contact using info below.
 * GitHub Username: 
 ${userName}
 * Email for questions and suggestions: 
