@@ -39,4 +39,4 @@ THEN I am taken to the corresponding section of the README
 
 
 ### GitHub repo: 
-[Here is the link](https://github.com/Mavsic/ReadMe-Generator)
+![Here is the link](https://github.com/Mavsic/ReadMe-Generator)
