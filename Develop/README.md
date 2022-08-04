@@ -35,7 +35,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Video walkthrough
 
-[walkthrough video](./videoWalkthrough.webm)
+[walkthrough video](./videpomp4.mp4)
 
 
 ### GitHub repo: 
