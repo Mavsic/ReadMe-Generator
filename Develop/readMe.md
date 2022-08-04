@@ -1,36 +1,40 @@
 
-.md
+
+
+![badge](https://img.shields.io/badge/license-GNUAGPLv3-brightgreen.svg)<br />
+
 # Project Title: 
-ff
+dd
 ---
 ## Description: 
-ff
+dd
 ---
 ## Table of Content:
 1. Installation
 2. Usage 
 3. License 
-GNU AGPLv3
 4. How to Contribute
 5. Tests
 ---
 ## Installation: 
-ff
+dd
 ---
 ## Usage: 
-ff
+dd
 ---
 ## License: 
-GNU AGPLv3
+![badge](https://img.shields.io/badge/license-GNU AGPLv3-brightgreen.svg)
+<br />
+Application is covered by GNU AGPLv3 license. 
 ---
 ## How to contribute: 
-ff
+dd
 ---
 ## Tests : 
-ff
+ddd
 ---
 ##Contact Information: 
 * GitHub Username: 
-ff
+dd
 * Email for questions and suggestions: 
-ff
+dd

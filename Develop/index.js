@@ -6,8 +6,12 @@ const fs = require('fs');
 const generateMarkdown = require("./utils/generateMarkdown");
 
 const generateReadMe = ({ title, description, installation, usage, license, contributing, tests, userName, userEmail }) => {
-return `
-.md
+let lic = license.split(" ").join("");
+    return `
+
+
+![badge](https://img.shields.io/badge/license-${lic}-brightgreen.svg)<br />
+
 # Project Title: 
 ${title}
 ---
@@ -15,11 +19,11 @@ ${title}
 ${description}
 ---
 ## Table of Content:
-1. Installation
-2. Usage 
-3. License 
-4. How to Contribute
-5. Tests
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [License](#license)
+4. [How to Contribute](#how-to-contribute)
+5. [Tests](#tests)
 ---
 ## Installation: 
 ${installation}
@@ -28,7 +32,9 @@ ${installation}
 ${usage}
 ---
 ## License: 
-${license}
+![badge](https://img.shields.io/badge/license-${lic}-brightgreen.svg)
+<br />
+Application is covered by ${license} license. 
 ---
 ## How to contribute: 
 ${contributing}
