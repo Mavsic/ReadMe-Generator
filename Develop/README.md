@@ -35,8 +35,8 @@ THEN I am taken to the corresponding section of the README
 
 ## Video walkthrough
 
-![walkthrough video](./videoWalkthrough.webm)
+[walkthrough video](./videoWalkthrough.webm)
 
 
 ### GitHub repo: 
-![Here is the link](https://github.com/Mavsic/ReadMe-Generator)
+[Here is the link](https://github.com/Mavsic/ReadMe-Generator)
